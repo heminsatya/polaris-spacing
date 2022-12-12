@@ -1,0 +1,39 @@
+{
+  "name": "polaris-spacing",
+  "version": "1.0.0",
+  "description": "Polaris Spacing Plugin for Polaris Framework.",
+  "author": "Hemin Satya",
+  "license": "MIT",
+  "main": "index.js",
+  "style": "/dist/css/main.css",
+  "sass": "/src/scss/main.ts",
+  "keywords": [
+    "CSS",
+    "Sass",
+    "JavaScript",
+    "TypeScript",
+    "webpack",
+    "HTML",
+    "responsive-design",
+    "front-end",
+    "Web",
+    "Framework"
+  ],
+  "homepage": "https://github.com/heminsatya/polaris-spacing#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heminsatya/polaris-spacing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heminsatya/polaris-spacing/issues"
+  },
+  "devDependencies": {
+    "polaris-core": "^0.9.1",
+    "sass": "^1.56.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "sass src/scss/main.scss dist/css/main.min.css --style compressed",
+    "css-dev": "sass src/scss/main.scss dist/css/main.css --watch"
+  }
+}

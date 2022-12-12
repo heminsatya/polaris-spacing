@@ -1,0 +1,29 @@
+/**
+ * Polaris Spacing Plugin v1.0.0
+ * MIT License github.com/heminsatya/polaris-plugins | © 2022 polarisui.com
+**/
+// -------------------------------------------------- //
+//                    Constructor                     //
+// -------------------------------------------------- //
+@use 'sass:math';
+@use "sass:map";
+
+@import "./bootstrap";
+
+
+/* -------------------------------------------------- */
+/*                        Padding                     */
+/* -------------------------------------------------- */
+// -- Component Class -- //
+@include spacing-class($paddings-plugin, $polaris-positions-abbr, $positions-axis, $name-padding, "padding", $strict-spacing);
+@include responsive-spacing($paddings-plugin, $polaris-positions-abbr, $positions-axis, $name-padding, "padding", $responsive-spacing, $strict-spacing);
+
+
+/* -------------------------------------------------- */
+/*                        Margin                      */
+/* -------------------------------------------------- */
+// -- Component Class -- //
+@include spacing-class($margins-plugin, $polaris-positions-abbr, $positions-axis, $name-margin, "margin", $strict-spacing);
+@include spacing-class($margins-negative, $polaris-positions-abbr, $positions-axis, $name-margin, "margin", $strict-spacing);
+@include responsive-spacing($margins-plugin, $polaris-positions-abbr, $positions-axis, $name-margin, "margin", $responsive-spacing, $strict-spacing);
+@include responsive-spacing($margins-negative, $polaris-positions-abbr, $positions-axis, $name-margin, "margin", $responsive-spacing, $strict-spacing);
