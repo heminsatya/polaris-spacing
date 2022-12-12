@@ -2,7 +2,7 @@
 
 In addition to the built-in core colors comes with [Polaris framework](https://github.com/heminsatya/polaris-core), you can also use a set of flat and beautiful colors.
 
-Polaris Spacing Plugin contains a set of responsive classes for controlling the `margin`, and `padding` of HTML elements.
+Polaris Spacing Plugin contains a set of responsive classes for controlling `padding`, and `margin` of HTML elements.
 
 
 ## Documentation
