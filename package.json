@@ -1,12 +1,12 @@
 {
   "name": "polaris-spacing",
-  "version": "1.0.0",
-  "description": "Polaris Spacing Plugin for Polaris Framework.",
+  "version": "1.1.0",
+  "description": "Polaris Spacing Plugin for Polaris Framework. A set of responsive classes for controlling 'padding', and 'margin' of HTML elements.",
   "author": "Hemin Satya",
   "license": "MIT",
   "main": "index.js",
   "style": "/dist/css/main.css",
-  "sass": "/src/scss/main.ts",
+  "sass": "/src/scss/main.scss",
   "keywords": [
     "CSS",
     "Sass",
