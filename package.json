@@ -1,6 +1,6 @@
 {
   "name": "polaris-spacing",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Polaris Spacing Plugin for Polaris Framework. A set of responsive classes for controlling 'padding', and 'margin' of HTML elements.",
   "author": "Hemin Satya",
   "license": "MIT",
@@ -28,7 +28,7 @@
     "url": "https://github.com/heminsatya/polaris-spacing/issues"
   },
   "devDependencies": {
-    "polaris-core": "^0.9.2",
+    "polaris-core": "^0.9.8",
     "sass": "^1.56.1"
   },
   "scripts": {
