@@ -1,4 +1,4 @@
-# Polaris Spacing Plugin (v1.2.2)
+# Polaris Spacing Plugin (v1.2.3)
 
 In addition to the built-in features and components comes with [Polaris framework](https://github.com/heminsatya/polaris), you can also use a set of useful plugins.
 
