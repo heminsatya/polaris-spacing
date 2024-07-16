@@ -1,5 +1,5 @@
 const msg = `
-    Polaris Spacing Plugin v.1.2.3
+    Polaris Spacing Plugin v1.3.0
 `
 
 module.exports = msg
